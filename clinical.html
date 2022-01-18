@@ -1,74 +1,75 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script type="text/javascript" src="js/respond.js"></script>
-    <title>PMRI Website</title>
-  </head>
-  <body>
-    <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="70px" width="250px"></a>
-        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="clinical.html">Clinical Service</a></li>
-                <li><a class="dropdown-item" href="bioanalytical.html">bioanalytical Services</a></li>
-                <li><a class="dropdown-item" href="scientificaffairs.html">Scientific Affairs</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="scientificHub.html" id="navbarDropdown" role="button">Scientific Hub</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <li><a class="dropdown-item" href="researchhub.html">Research Hub</a></li>
-               <li><a class="dropdown-item" href="PMRInews.html">PMRI News</li></a></li>
-             </ul>
-           </li>
-
-           <li class="nav-item">
-            <a class="nav-link active" href="aboutus.html">About Us</a>
-          </li>
+  <script type="text/javascript" src="js/respond.js"></script>
+  <title>PMRI Website</title>
+</head>
+<body>
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="70px" width="250px"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-link" href="careers.html">Careers</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" > 
+            <!-- <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+              Services 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="clinical.html">Clinical Service</a></li>
+              <li><a class="dropdown-item" href="bioanalytical.html">bioanalytical Services</a></li>
+              <li><a class="dropdown-item" href="scientificaffairs.html">Scientific Affairs</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a href="volunteer.html" class="btn btn-success" >Volunteers</a>
-          </li>
-        </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="scientificHub.html" id="navbarDropdown">Scientific Hub</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" href="researchhub.html">Research Hub</a></li>
+             <li><a class="dropdown-item" href="PMRInews.html">PMRI News</li></a></li>
+           </ul>
+         </li>
 
-      </div>
+         <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="careers.html">Careers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="volunteer.html" class="btn btn-success" >Volunteers</a>
+        </li>
+      </ul>
+
     </div>
-  </nav>
+  </div>
+</nav>
 </div>
 </div>
 
@@ -79,7 +80,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Services </h1>
+          <h1>Clinical Services </h1>
           <p>Science is our foundation and we never compromise on quality.</p>
         </div>
       </div>
@@ -88,8 +89,8 @@
 </div>
 
 <div class="container">
-<h1 class="text-center pt-3 "> Available Clinical Services</h1>
-<p class="pt-3">You can always count on PMRI when you need us. Our GCP-compliant custom built clinical unit, with over 115,000 square foot of space, provides sufficient capacity to meet all of your needs, even during the COVID period. Boasting 360 beds in 6 self-contained state-of-the art units Our flexible scheduling process also provides you with dosing dates right within your target range and accommodate delays and last minute requests. This is a key success factor that allows you to minimize the impact of unavoidable delays during the drug development process</p>
+  <h1 class="text-center pt-3 "> Available Clinical Services</h1>
+  <p class="pt-3">You can always count on PMRI when you need us. Our GCP-compliant custom built clinical unit, with over 115,000 square foot of space, provides sufficient capacity to meet all of your needs, even during the COVID period. Boasting 360 beds in 6 self-contained state-of-the art units Our flexible scheduling process also provides you with dosing dates right within your target range and accommodate delays and last minute requests. This is a key success factor that allows you to minimize the impact of unavoidable delays during the drug development process</p>
 
 </div>
 
@@ -110,22 +111,21 @@
         <p>Expertise New Chemical Entities (NCEs) / New Therapeutic Entities (NTEs), hybrid submissions (505b2 and Value Added Medicine) and generic submissions for global jurisdictions. We have experience with various dosage forms in single dose and multiple dose drug administration regimens. (MAYBE THIS PARAGRAPH CAN GO SOMEWHERE ELSE).
         </p>
       </div>
-      <div class="text-start pt-5"><a href="services.html" class="btn btn-success" >Learn More</a> </div>
+      <div class="text-start pt-5"><a href="clinical-expertise.html" class="btn btn-success" >Learn More</a> </div>
     </div>
     <!--Grid column-->
   </div>
   <!--Grid row-->
 </div>
-</div>
 
 <!-- Subject Selection --> 
 
 <div class="container">
-    <!--Grid row-->
-    <div class="row text-center mx-auto">
-      <!--Grid column-->
-      <div class="col-md-8 mb-4 my-5">
-        <h2 class="text-start"> Subject Selection </h2>
+  <!--Grid row-->
+  <div class="row text-center mx-auto">
+    <!--Grid column-->
+    <div class="col-md-8 mb-4 my-5">
+      <h2 class="text-start"> Subject Selection </h2>
       <div class="service pt-3"> 
         <p>Full panel all the time! From healthy volunteer subjects, special populations such as pre or post menopausal women or patients we are here for you. Being located in the Greater Toronto Area, gives us access to a diverse population which is what Regulators look for in clinical trials. We draw from our active database which boasts over X volunteers in addition to reaching out by various advertising medians. We also have a very effective referral program - participants love the safe and comfortable environment offered at PMRI and spread the word. We are also enrolled in clinical RSVP which securely and confidentially validates subjects eligibility prior to enrollment by using biometrics. The goal is prevent dual enrollment which leads to increased accuracy of clinical study data and improves the participant’s safety.</p></div>
       </div>
@@ -134,15 +134,13 @@
       <div class="col-md-4 mb-4">
         <img class="img-fluid my-5" alt="100x100" src="img/Service/Subjectselection.png" data-holder-rendered="true">
       </div>
-    <!--Grid column-->
+      <!--Grid column-->
     </div>
-    <!--Grid row-->
   </div>
-</div>
 
-<!-- Safety --> 
+  <!-- Safety --> 
 
-<div class="container">
+  <div class="container">
     <!--Grid row-->
     <div class="row text-center mx-auto">
       <!--Grid column-->
@@ -152,171 +150,171 @@
       <!--Grid column-->
       <!--Grid column-->
       <div class="col-md-8 mb-4 my-5">
-      <h2 class="text-start"> Safety</h2>
-      <div class="service pt-3"> 
-        <p>Staff credentials, facility, practises all aligned with subject safety in mind. From our doctors, nurses ,paramedics and CPR first Aid Certified staff to our equipment including crashcarts, defibulators, emergency call buttons, 24/7 video surveillance we have it covered and are ready to react. Subject safety is the topmost priortiy. Our Principal investigator and Sbu Investigators are licensed physicians with active practice keeping them in the forefront of ….(health)</p></div>
-      </div>
-    <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-</div>
-
-<!--Pharmacy -->
-
-<div class="container">
-    <!--Grid row-->
-    <div class="row text-center mx-auto">
-      <!--Grid column-->
-      <div class="col-md-8 mb-4 my-5">
-        <h2 class="text-start"> Pharmacy</h2>
-      <div class="service pt-3"> 
-        <p>Right drug, right participant. It happens here! In our secure and licensed pharmacy the critical step of repackaging for clinical trials is conducted by our trained and qualified staff. The facility is designed to store drugs under various storage conditions depending the requirements of temperature and humidity. Narcotic, controlled drug substances, including cannabis is covered with our active controlled substance licenses. Formalized procedures for blinding/unblinding, appropriate drug preparation environment and qualified staff is our solution.</p></div>
-      </div>
-      <!--Grid column-->
-      <!--Grid column-->
-      <div class="col-md-4 mb-4">
-        <img class="img-fluid my-5" alt="100x100" src="img/Service/Pharmacy.png" data-holder-rendered="true">
-      </div>
-    <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-</div>
-
-<!-- Our Kitchen --> 
-
-<div class="container">
-    <!--Grid row-->
-    <div class="row text-center mx-auto">
-      <!--Grid column-->
-      <div class="col-md-4 mb-4">
-        <img class="img-fluid my-5" alt="100x100" src="img/Service/kitchen.png" data-holder-rendered="true">
-      </div>
-      <!--Grid column-->
-      <!--Grid column-->
-      <div class="col-md-8 mb-4 my-5">
-      <h2 class="text-start"> Our Kitchen </h2>
-      <div class="service pt-3"> 
-        <p>“This may seems like a “”nice have”” but having full control of food content for consistency, quality and adhering to dietary requirements not only decreases study variability but improves probability of study success.” Perfect solution for food-effect studies including FDA’s critical high-fat content breakfast/meal.Our on-site kitchen works closely with our nutritionist/dietician ensuring compliance with special dietary requirements & special caloric intake and provides the highest quality and consistent portions from subject to subject and period to period. Using the freshest ingredients we create menus that consider nutrition, taste and presentation which assist with subject compliance.Our kitchen is routinely inspected by Toronto Public Health.</p></div>
-      </div>
-    <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-</div>
-
-
-<!-- Newsletter --> 
-
-<div class="row justify-content-center bg-green align-items-center">
-      <div class="col-md-6 px-5 text-center">      
-          <span class="d-block mt-3"><h3 class="text-white">Stay Informed!!  <br> Sign Up for news letter </h3></span> 
-          <div class="input-group mb-4 mt-4"> <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2"> <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button> </div>
+        <h2 class="text-start"> Safety</h2>
+        <div class="service pt-3"> 
+          <p>Staff credentials, facility, practises all aligned with subject safety in mind. From our doctors, nurses ,paramedics and CPR first Aid Certified staff to our equipment including crashcarts, defibulators, emergency call buttons, 24/7 video surveillance we have it covered and are ready to react. Subject safety is the topmost priortiy. Our Principal investigator and Sbu Investigators are licensed physicians with active practice keeping them in the forefront of ….(health)</p></div>
         </div>
+        <!--Grid column-->
       </div>
-
-<!-- Footer --> 
-
-<footer
-class="text-center text-lg-start text-green">
-
-<!-- Section: Links -->
-<section class="">
-  <!--Grid row-->
-  <div class="row">
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-      <img src="img/logo.png">
+      <!--Grid row-->
+      
     </div>
 
-    <!-- Grid column -->
-    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
-      <p>
-        <a class="text-black"href="#">Clinical Services</a>
-      </p>
-      <p>
-        <a class="text-black" href="#">Bioanalytical Services</a>
-      </p>
-      <p>
-        <a class="text-black" href="#">Scientific Affairs</a>
-      </p>
-    </div>
+    <!--Pharmacy -->
 
-
-    <!-- Grid column -->
-    <hr class="w-100 clearfix d-md-none" /> 
-
-    <!-- Grid column -->
-    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Home</h6>
-      <p>
-        <a class="text-black" href="#"> About Pharma Medica </a></p>
-        <p>
-          <a class="text-black" href="#"> Terms & Condition</a></p>
-          <p>
-            <a class="text-black" href="#"> Contact Us</a></p>
+    <div class="container">
+      <!--Grid row-->
+      <div class="row text-center mx-auto">
+        <!--Grid column-->
+        <div class="col-md-8 mb-4 my-5">
+          <h2 class="text-start"> Pharmacy</h2>
+          <div class="service pt-3"> 
+            <p>Right drug, right participant. It happens here! In our secure and licensed pharmacy the critical step of repackaging for clinical trials is conducted by our trained and qualified staff. The facility is designed to store drugs under various storage conditions depending the requirements of temperature and humidity. Narcotic, controlled drug substances, including cannabis is covered with our active controlled substance licenses. Formalized procedures for blinding/unblinding, appropriate drug preparation environment and qualified staff is our solution.</p></div>
           </div>
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" /> 
-
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Head Office</h6>
-            <p>1600 Belgrave Rd</p>
-            <p>Mississauga, ON</p>
-            <p>L5R 0B7</p>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <img class="img-fluid my-5" alt="100x100" src="img/Service/Pharmacy.png" data-holder-rendered="true">
           </div>
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" /> 
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us Online</h6>
-
-            <!-- Facebook -->
-            <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #3b5998"
-            href="#!"
-            role="button"><i class="fa fa-facebook-f"></i></a>
-
-            <!-- Twitter -->
-            <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #55acee"
-            href="#!"
-            role="button"><i class="fa fa-twitter"></i></a>
-
-            <!-- Instagram -->
-            <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #ac2bac"
-            href="#!"
-            role="button"
-            ><i class="fa fa-instagram"></i></a>
-
-            <!-- Linkedin -->
-            <a
-            class="btn btn-primary btn-floating m-1"
-            style="background-color: #0082ca"
-            href="#!"
-            role="button"><i class="fa fa-linkedin-in"></i></a>
-            
-          </div>
+          <!--Grid column-->
         </div>
         <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2021,<a class="text-black" href="#">Pharma Medica Research Inc.</a> All rights reserved.
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+        
+      </div>
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+      <!-- Our Kitchen --> 
+
+      <div class="container">
+        <!--Grid row-->
+        <div class="row text-center mx-auto">
+          <!--Grid column-->
+          <div class="col-md-4 mb-4">
+            <img class="img-fluid my-5" alt="100x100" src="img/Service/kitchen.png" data-holder-rendered="true">
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-8 mb-4 my-5">
+            <h2 class="text-start"> Our Kitchen </h2>
+            <div class="service pt-3"> 
+              <p>“This may seems like a “”nice have”” but having full control of food content for consistency, quality and adhering to dietary requirements not only decreases study variability but improves probability of study success.” Perfect solution for food-effect studies including FDA’s critical high-fat content breakfast/meal.Our on-site kitchen works closely with our nutritionist/dietician ensuring compliance with special dietary requirements & special caloric intake and provides the highest quality and consistent portions from subject to subject and period to period. Using the freshest ingredients we create menus that consider nutrition, taste and presentation which assist with subject compliance.Our kitchen is routinely inspected by Toronto Public Health.</p></div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+          
+        </div>
+
+
+        <!-- Newsletter --> 
+
+        <div class="row justify-content-center bg-green align-items-center">
+          <div class="col-md-6 px-5 text-center">      
+            <span class="d-block mt-3"><h3 class="text-white">Stay Informed!!  <br> Sign Up for news letter </h3></span> 
+            <div class="input-group mb-4 mt-4"> <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2"> <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button> </div>
+          </div>
+        </div>
+
+        <!-- Footer --> 
+
+        <footer
+        class="text-center text-lg-start text-green">
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <img src="img/logo.png">
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+              <p>
+                <a class="text-black"href="#">Clinical Services</a>
+              </p>
+              <p>
+                <a class="text-black" href="#">Bioanalytical Services</a>
+              </p>
+              <p>
+                <a class="text-black" href="#">Scientific Affairs</a>
+              </p>
+            </div>
+
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" /> 
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Home</h6>
+              <p>
+                <a class="text-black" href="#"> About Pharma Medica </a></p>
+                <p>
+                  <a class="text-black" href="#"> Terms & Condition</a></p>
+                  <p>
+                    <a class="text-black" href="#"> Contact Us</a></p>
+                  </div>
+                  <!-- Grid column -->
+                  <hr class="w-100 clearfix d-md-none" /> 
+
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Head Office</h6>
+                    <p>1600 Belgrave Rd</p>
+                    <p>Mississauga, ON</p>
+                    <p>L5R 0B7</p>
+                  </div>
+
+                  <!-- Grid column -->
+                  <hr class="w-100 clearfix d-md-none" /> 
+
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us Online</h6>
+
+                    <!-- Facebook -->
+                    <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #3b5998"
+                    href="#!"
+                    role="button"><i class="fa fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #55acee"
+                    href="#!"
+                    role="button"><i class="fa fa-twitter"></i></a>
+
+                    <!-- Instagram -->
+                    <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #ac2bac"
+                    href="#!"
+                    role="button"
+                    ><i class="fa fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #0082ca"
+                    href="#!"
+                    role="button"><i class="fa fa-linkedin-in"></i></a>
+                    
+                  </div>
+                </div>
+                <!--Grid row-->
+              </section>
+              <!-- Section: Links -->
+              <!-- Copyright -->
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2021,<a class="text-black" href="#">Pharma Medica Research Inc.</a> All rights reserved.
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+          </body>
+          </html>
