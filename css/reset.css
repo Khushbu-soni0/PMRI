@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+}
+
+h1 {
+	font-size: 36px;
+	color: #004f16;
+	
+}
+
+h2 {
+	font-size: 30px;
+	color: #004f16;
+	
+}
+
+h3 {
+	font-size: 24px;
+	color: #000000;
+
+	
+}
+
+h6 {
+	font-weight: bold;
+}
+
+.primary {
+	color: #004f16;
+}
+
+.primary-bg{
+	color: #004f16;
+}
+
+a:focus {
+	outline: 0;
+	display: inline-block;
+	list-style: none;
+}
+
+a.text-black {
+	outline: 0;
+
+	display: inline-block;
+	text-decoration: none !important;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	display: inline-block;
+
+}
