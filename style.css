@@ -160,7 +160,7 @@ html  {
 
 
 footer {
-	background-color: #c2a35e;
+	background-color: #E6D88A;
 }
 
 
@@ -177,6 +177,12 @@ footer {
     padding: 70px 0;
     margin-top: 50px;
     
+}
+
+.page-header-career{
+	background: url(img/career/banner.png) no-repeat;
+	padding: 70px 0;
+    margin-top: 50px;
 }
 .page-header h1 {
     color: #004f16;
@@ -201,4 +207,62 @@ footer {
   margin: 0;
 
   text-align: justify;
+}
+
+
+#module {
+  width: 500px;
+}
+
+#module p.collapse[aria-expanded="false"] {
+    display: block;
+    height: 40px !important;
+    overflow: hidden;
+}
+
+#module p.collapsing[aria-expanded="false"] {
+    height: 40px !important;
+}
+
+#module a.collapsed:after  {
+    content: '+ Show More';
+}
+
+#module a:not(.collapsed):after {
+    content: '- Show Less';
+}
+
+#info{ 
+width:100%; 
+} 
+#text{ 
+width:100%;  
+height:4vh;  
+overflow:hidden;  
+font-size:18px; 
+text-align: justify; 
+} 
+#collapse{ 
+display:none; 
+} 
+
+.tab-content p{
+	text-align: justify;
+}
+
+
+
+.hiring p{
+	color: #004f16;
+	text-align: center;
+}
+
+.text-green {
+	color: #004f16;
+	text-decoration: none;
+}
+
+.btn-apply {
+	background-color: #004f16;
+	color: #c2a35e;
 }
