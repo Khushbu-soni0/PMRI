@@ -153,6 +153,11 @@ html  {
 	border-color: #f9a826
 }
 
+.border-white {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
 .border-rad:hover {
 	background-color: #c2a35e;
 	border-color: #c2a35e
@@ -180,9 +185,29 @@ footer {
 }
 
 .page-header-career{
-	background: url(img/career/banner.png) no-repeat;
+	background: url(img/Career/banner.png) no-repeat;
 	padding: 70px 0;
     margin-top: 50px;
+}
+
+.page-header-contactus{
+	background: url(img/ContactUs/banner.png) no-repeat;
+	padding: 70px 0;
+    margin-top: 50px;
+}
+
+.page-header-volunteer {
+	background: url(img/volunteer/banner.png) no-repeat;
+	padding: 70px 0;
+    margin-top: 50px;
+}
+
+.page-header-pmrinews {
+	background: url(img/news/news.png);
+	padding: 70px 0;
+	margin-top: 50px;
+
+
 }
 .page-header h1 {
     color: #004f16;
@@ -251,7 +276,6 @@ display:none;
 }
 
 
-
 .hiring p{
 	color: #004f16;
 	text-align: center;
@@ -265,4 +289,102 @@ display:none;
 .btn-apply {
 	background-color: #004f16;
 	color: #c2a35e;
+}
+
+
+
+.nav-tabs a:hover {
+	background-color: #004f16;
+}
+
+.nav-tabs nav-link {
+	background-color: #004f16;
+}
+
+.nav-tabs nav-link.active {
+	background-color: #004f16;
+}
+
+/* Contact Us page */ 
+
+.container {
+    transform-style: preserve-3d
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer
+}
+
+.container .box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease
+}
+
+.container .box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d
+}
+
+.container .box .body .imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.container .box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg)
+}
+
+.container .box:hover .body {
+    transform: rotateY(180deg)
+}
+
+.container .box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(35deg, #004f16, #c2a35e);
+    transform: translateZ(100px);
+}
+
+.content a{
+	text-decoration: none;
+	color: #f8f9fa !important;
+}
+
+.container .box .body .content div h3 {
+    letter-spacing: 1px
+}
+
+.btn-contact {
+	background-color: #c2a35e;
+}
+
+.card p{
+	text-align: justify;
 }
