@@ -388,3 +388,11 @@ display:none;
 .card p{
 	text-align: justify;
 }
+
+
+
+.FAQ a:hover {
+
+	color: green !important;
+
+}
