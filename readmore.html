@@ -1,330 +1,382 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-  <script type="text/javascript" src="js/respond.js"></script>
-  <title>PMRI Website</title>
-</head>
-<body>
-     
+
+    
+    <script type="text/javascript" src="js/respond.js"></script>
+    <title>PMRI Website</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+
 
 <div class="container row text-center mx-auto p-5">
-  <p>
-    <div class="FAQ"> 
-      <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-        <b> Q. What is a Clinical Trial? </b>
-      </a>
+ 
+   <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What is Clinical Trials?
+      </button>
+    </h2>
 
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          A. Clinical trials are in general medical or health related research studies that are conducted in human. These trials follow a defined protocol aimed to evaluate medical, surgical, or behavioral intervention to help find out if a new treatment is safe and effective and/or has less harmful side effects than the standard treatment.
-        </div>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. Clinical trials are in general medical or health related research studies that are conducted in human. These trials follow a defined protocol aimed to evaluate medical, surgical, or behavioral intervention to help find out if a new treatment is safe and effective and/or has less harmful side effects than the standard treatment.
       </div>
-      <br>
+    </div>
+  </div>
 
-    <a data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-      <b> Q. Who can participate in clinical trials? </b>
-    </a>
-
-      <div class="collapse" id="collapseExample1">
-        <div class="card card-body">
-          A. All clinical trials have guidelines as important principles to identify qualified participants. You will be allowed or disallowed to participate depending on many factors such as age, gender, medical conditions. Some clinical trials seek participate with illnesses or conditions while others need healthy participants. These guidelines are not used to reject interested participants personally. Instead, it is used to ensure the safety of the participants by identifying appropriate participants for each clinical trial.
-        </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Who can participate in clinical trials?
+      </button>
+      </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        A. All clinical trials have guidelines as important principles to identify qualified participants. You will be allowed or disallowed to participate depending on many factors such as age, gender, medical conditions. Some clinical trials seek participate with illnesses or conditions while others need healthy participants. These guidelines are not used to reject interested participants personally. Instead, it is used to ensure the safety of the participants by identifying appropriate participants for each clinical trial.
       </div>
-      <br>
+    </div>
+  </div>
 
-    <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-      <b> Q. What are the benefits and risks of participating in a clinical trial? </b>
-    </a>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What are the benefits and risks of participating in a clinical trial?
+      </button>
 
-    <div class="collapse" id="collapseExample2">
-        <div class="card card-body">
-         Benefits: Play an active role in your own health care. Help others by contributing to medical research. To have access to new treatments. <br>
+      </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Benefits: Play an active role in your own health care. Help others by contributing to medical research. To have access to new treatments. <br>
         Risks: There may be unpleasant, serious, or even life-threatening side effects. 
         </div>
       </div>
-      <br>
+    </div>
 
-      <a data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-      <b> Q. What are side effects and adverse reactions? </b>
-    </a>
 
-    <div class="collapse" id="collapseExample4">
-        <div class="card card-body">
-         A. Side effects are any undesired effects of the treatment or drug may include headache, nausea, skin irritation, or other physical problems.` 
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        What are side effects and adverse reactions?
+      </button>
+
+      </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Side effects are any undesired effects of the treatment or drug may include headache, nausea, skin irritation, or other physical problems.
         </div>
       </div>
-      <br>
+    </div>
 
-<a data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-     <b> Q. How is the safety of the participant protected? </b>
-    </a>
 
-    <div class="collapse" id="collapseExample5">
-        <div class="card card-body">
-         The ethical and legal codes that govern medical practice also apply to clinical trials. in addition, most clinical research is federally regulated with built in safeguards to protect the participants. The trial follows a carefully controlled protocol, a study plan which details what researchers will do in a study.` 
+     <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        How is the safety of the participant protected?
+      </button>
+
+      </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        The ethical and legal codes that govern medical practice also apply to clinical trials. in addition, most clinical research is federally regulated with built in safeguards to protect the participants. The trial follows a carefully controlled protocol, a study plan which details what researchers will do in a study.
         </div>
       </div>
-      <br>
+    </div>
 
-<a data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-    <b> Q.What should participant consider before participating in a clinical trial?  </b>    
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          What should participant consider before participating in a clinical trial?
+        </button>
 
-    <div class="collapse" id="collapseExample6">
-        <div class="card card-body">
-         A. Interested participant should know as much as possible about the clinical trials and ask questions about it. The following questions might be helpful to ask staff : 
-What is the purpose of this trial?
-Who is going to be in the trial?
-Why do researchers believe this treatment may be effective? Was it tested before?
-What kinds of tests involved?
-What are the risks and benefits?
-How long is this clinical trial?
-Will I be reimbursed for joining these trials?
-Who will oversee my care?
-` 
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Interested participant should know as much as possible about the clinical trials and ask questions about it. The following questions might be helpful to ask staff : 
+          What is the purpose of this trial?
+          Who is going to be in the trial?
+          Why do researchers believe this treatment may be effective? Was it tested before?
+          What kinds of tests involved?
+          What are the risks and benefits?
+          How long is this clinical trial?
+          Will I be reimbursed for joining these trials?
+          Who will oversee my care?
         </div>
       </div>
-      <br>
+    </div>
 
- <a data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-    <b> Q.What my experience with PMRI will be?  </b>    
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSeven">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          What my experience with PMRI will be?
+        </button>
 
-    <div class="collapse" id="collapseExample7">
-        <div class="card card-body">
-         A. The following steps might be helpful for your walk you through the process recruiting 
-It is easy, call 416-759-4111 and press or 416-759-5554; our recruiters will guide you through. Your first registration may take about 15 minutes.
-Where are you located?
-Our Clinical facilities are in Toronto (Scarborough) and our Corporate Office is in Mississauga. Please see Contact Us for maps and directions
+      </h2>
+      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          The following steps might be helpful for your walk you through the process recruiting 
+It is easy, call 416-759-4111 and press or 416-759-5554; our recruiters will guide you through. Your first registration may take about 15 minutes.<br>
 
-<b> Medial Screening </b>
+<b> Medial Screening: </b>
 You will be invited to our clinic located at 4770 Sheppard Ave. East for Medical screening if you have interest in participating a clinical Trial. The medical screening may take 1-2 hours.  Upon your consent. We will collect your medical history, measure your height and weight, blood pressure, and electrocardiogram.  A blood sample and urine sample will be collected from you.
         </div>
       </div>
-      <br>
+    </div>
 
-<a data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-   <b> Q. Can I bring my child or pet to my appointment?  </b>     
-  </a>
-    <div class="collapse" id="collapseExample8">
-        <div class="card card-body">
-            A. No. Visitors, guests, or pets are not permitted in the Clinic or screening locations.
+<div class="accordion-item">
+      <h2 class="accordion-header" id="headingEight">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Can I bring my child or pet to my appointment?
+        </button>
+
+      </h2>
+      <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          No. Visitors, guests, or pets are not permitted in the Clinic or screening locations.
         </div>
       </div>
-      <br>
-  <a data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-      <b> Q. What if I don't show up for my appointment? </b>     
-  </a>
+    </div>
 
-    <div class="collapse" id="collapseExample9">
-        <div class="card card-body">
-            A. If you are a no-show for your appointment and did not notify us that you could not make it, we may suspend your file for 30 days. This means that you would have to wait at least 30 days before you can volunteer for another study. If you fail to show up for 4 screening appointments, you may be banned from participating in future studies at Pharma Medica Research Inc.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+           What if I don't show up for my appointment?
+        </button>
+
+      </h2>
+      <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          If you are a no-show for your appointment and did not notify us that you could not make it, we may suspend your file for 30 days. This means that you would have to wait at least 30 days before you can volunteer for another study. If you fail to show up for 4 screening appointments, you may be banned from participating in future studies at Pharma Medica Research Inc.
         </div>
       </div>
-      <br>
+    </div>
 
-      <h3> <b> On Study </b></h3>
-<p style="text-align: justify;">For most studies, you exit around 8am the following day. Some studies involve earlier check in and longer stays. Please refer to the Current Studies listing on the website for more details. There are also some studies called "multiple-dose" or "steady-state" that involve extended stays in the clinic. Volunteers may stay anywhere from 5 to 30 days.
+
+
+      <div class="text-black Center strong m-3"><h3>On Study </h3></div>
+<div class="pb-3"><p style="text-align: justify;">For most studies, you exit around 8am the following day. Some studies involve earlier check in and longer stays. Please refer to the Current Studies listing on the website for more details. There are also some studies called "multiple-dose" or "steady-state" that involve extended stays in the clinic. Volunteers may stay anywhere from 5 to 30 days.
 
 Most studies involve between 2 and 4 overnight stays in the clinic. Please refer to the Current Studies listing on the website or contact our Recruiting Center (416-759-5554) for a detailed study schedule. In addition to overnight stays, some studies have "return blood draws". In these studies, volunteers are required to return to the clinic at the designated time to have a blood sample drawn. In most cases you should be at the clinic less than 30 minutes. Detailed times and dates for the return blood draws are provided in advance. Compensation for the return blood draws is included in the study fee.
 </p>
+</div>
 
-<a data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-      <b> Q. Are these studies safe?  </b>  
-  </a>
+<div class="accordion-item">
+      <h2 class="accordion-header" id="heading10">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+           Are these studies safe?
+        </button>
 
-    <div class="collapse" id="collapseExample10">
-        <div class="card card-body">
-           A. All the studies are reviewed by an independent ethics board and approved by Health Canada to ensure that your health and safety is protected. Volunteers are also fully informed with regard to drug, adverse events, and procedures (e.g. blood draws, ECGs, etc.) that will be performed on study. PMRI wants to ensure that you understand what to expect while on study. It is important to note that for most studies volunteers will only be given a single dose of the study drug. This minimal exposure reduces the likelihood of adverse events.
+      </h2>
+      <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          All the studies are reviewed by an independent ethics board and approved by Health Canada to ensure that your health and safety is protected. Volunteers are also fully informed with regard to drug, adverse events, and procedures (e.g. blood draws, ECGs, etc.) that will be performed on study. PMRI wants to ensure that you understand what to expect while on study. It is important to note that for most studies volunteers will only be given a single dose of the study drug. This minimal exposure reduces the likelihood of adverse events.
         </div>
       </div>
-      <br>
+    </div>
 
-<a data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-         <b> Q. Do I have to stay overnight? </b> 
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading11">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+           Do I have to stay overnight?
+        </button>
 
-    <div class="collapse" id="collapseExample11">
-        <div class="card card-body">
-              A. Yes. Generally, you will have to stay with us overnight for at least one night. All of our studies are different, and the amount of time you spend with us depends on the particular study you volunteer for.
+      </h2>
+      <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes. Generally, you will have to stay with us overnight for at least one night. All of our studies are different, and the amount of time you spend with us depends on the particular study you volunteer for.
         </div>
       </div>
-      <br>
+    </div>
 
-  <a data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-             <b> Q. Where will I sleep? </b>
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading12">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+           Where will I sleep?
+        </button>
 
-    <div class="collapse" id="collapseExample12">
-        <div class="card card-body">
-              A.Our clinical facility has accommodations for sleeping. Beds will be assigned based on your position in the study. We try our best in making your stay as comfortable as possible by providing clean bed linens, thermal blankets, and pillows. We only ask that you not bring pillows or blankets from home.
-
+      </h2>
+      <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Our clinical facility has accommodations for sleeping. Beds will be assigned based on your position in the study. We try our best in making your stay as comfortable as possible by providing clean bed linens, thermal blankets, and pillows. We only ask that you not bring pillows or blankets from home.
         </div>
       </div>
-      <br>
+    </div>
 
-  <a data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-            <b>  Q. Will there be a place for showering? </b>
-  </a>
 
-    <div class="collapse" id="collapseExample13">
-        <div class="card card-body">
-              A. Yes. Each clinic has personal showers. Clean towels and most toiletries are provided (toothbrush   and toothpaste are not included). You may also bring your own personal toiletries (shampoo, body wash, etc.) as long as they are non-medicated.
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading13">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+           Will there be a place for showering?
+        </button>
 
+      </h2>
+      <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes. Each clinic has personal showers. Clean towels and most toiletries are provided (toothbrush and toothpaste are not included). You may also bring your own personal toiletries (shampoo, body wash, etc.) as long as they are non-medicated.
         </div>
       </div>
-      <br>
+    </div>
 
-  <a data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-           <b>      Q. Are meals provided? </b>
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading14">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+           Are meals provided?
+        </button>
 
-    <div class="collapse" id="collapseExample14">
-        <div class="card card-body">
-              A. Yes. All of your meals and snacks are provided while you are at our clinic. Meals and snacks are designed for the study and everyone is given the same food in the same quantity. You may not bring your own food into the clinic.
-              
+      </h2>
+      <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Yes. All of your meals and snacks are provided while you are at our clinic. Meals and snacks are designed for the study and everyone is given the same food in the same quantity. You may not bring your own food into the clinic.
         </div>
       </div>
-      <br>
+    </div>
 
- <a data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-              <b>   Q.What will I do while staying at the clinic? </b>
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading15">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+           What will I do while staying at the clinic?
+        </button>
 
-    <div class="collapse" id="collapseExample15">
-        <div class="card card-body">
-              A. Aside from the clinical trial procedures. Our clinic has a state-of-the-art entertainment system including 52-inch LCD televisions, surround sound, and PlayStation 3 consoles. With over 200 channels, a DVD collection, and an assortment of PlayStation 3 games, we hope to make your stay at our clinic as enjoyable as possible. In addition, there are computers with high-speed internet and lounges with natural lighting, comfortable couches, and an overall peaceful environment for you to catch up on some work, chat with friends, play a board game, or just relax. (personal cell phones and laptops are allowed but encouraged not to be used if interface with study procedures).
-              
+      </h2>
+      <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Aside from the clinical trial procedures. Our clinic has a state-of-the-art entertainment system including 52-inch LCD televisions, surround sound, and PlayStation 3 consoles. With over 200 channels, a DVD collection, and an assortment of PlayStation 3 games, we hope to make your stay at our clinic as enjoyable as possible. In addition, there are computers with high-speed internet and lounges with natural lighting, comfortable couches, and an overall peaceful environment for you to catch up on some work, chat with friends, play a board game, or just relax. (personal cell phones and laptops are allowed but encouraged not to be used if interface with study procedures).
         </div>
       </div>
-      <br>
+    </div>
 
-  <a data-bs-toggle="collapse" href="#collapseExample16" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-              <b>   Q. Will there be side effects from the drug? </b>
-  </a>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading16">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+           Will there be side effects from the drug? 
+        </button>
 
-    <div class="collapse" id="collapseExample16">
-        <div class="card card-body">
-              A. Before deciding whether to volunteer in a study you will be given an information package which lists the possible side effects. You may or may not experience side effects, but in the case that you do, our qualified staff are available throughout the study to assist you and provide medical care if necessary.
-              
+      </h2>
+      <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Before deciding whether to volunteer in a study you will be given an information package which lists the possible side effects. You may or may not experience side effects, but in the case that you do, our qualified staff are available throughout the study to assist you and provide medical care if necessary.
         </div>
       </div>
-      <br>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading17">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+         How much blood will be taken?
+       </button>
+
+     </h2>
+     <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Each study is different. Our recruiters will inform you of the total amount of blood that will be taken for your specific study. Generally, the amount of blood taken is relatively small. To help you better understand the amount of blood taken, we will provide you a percentage comparison to a typical blood donation (i.e. to Canadian Blood Services).
+
+       While on study, we take a small amount of blood (about 6 mL) at specific sampling times. The frequency (how often) and number of samples drawn is different for every study. Each Subject may choose to have the blood drawn by direct venipuncture (like when you go for a blood test) or have a catheter inserted. The choice is yours. Before deciding whether of not to participate in a study, you will be informed of the amount of sampling scheduled and total amount of blood required.
+     </div>
+   </div>
+ </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading18">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+        How often can I participate?
+       </button>
+
+     </h2>
+     <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       To protect your health and wellbeing, a "lock-out" period is enforced after you complete a study. The typical lock-out period is 30 days and is based on both the amount of blood drawn and the type of drug. This means that after completing a study, you must wait 30 days before participating in another study - whether at Pharma Medica Research Inc. or another company. The lock-out period is in place to protect your health and safety, and is calculated based on the amount of blood taken as well as the type of drug.      
+     </div>
+   </div>
+ </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading19">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+        What is the difference between a wash-out and a lock-out period?
+       </button>
+
+     </h2>
+     <div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       A wash-out period is the amount of time scheduled between doses of the drug. For example, after staying in the clinic overnight and taking a dose of a drug you will typically go home, then return and enter the clinic again for another single dose of the study drug on another day. The period between visits is called the "wash-out period". It is typically 1 week but may be 2 weeks or longer.      
+     </div>
+   </div>
+ </div>
+
+ <div class="accordion-item">
+      <h2 class="accordion-header" id="heading20">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+        What happens if I have side effects from the drug?
+       </button>
+
+     </h2>
+     <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Your safety is a priority at Pharma Medica. You will be monitored during the study to make sure you are feeling well. If you experience discomfort of any sort, our staff and physicians will care for you.    
+     </div>
+   </div>
+ </div>
 
 
-<a data-bs-toggle="collapse" href="#collapseExample17" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-  <b> Q. How much blood will be taken? </b> </a>
-
-    <div class="collapse" id="collapseExample17">
-        <div class="card card-body">
-              A. Each study is different. Our recruiters will inform you of the total amount of blood that will be taken for your specific study. Generally, the amount of blood taken is relatively small. To help you better understand the amount of blood taken, we will provide you a percentage comparison to a typical blood donation (i.e. to Canadian Blood Services).
-
-While on study, we take a small amount of blood (about 6 mL) at specific sampling times. The frequency (how often) and number of samples drawn is different for every study. Each Subject may choose to have the blood drawn by direct venipuncture (like when you go for a blood test) or have a catheter inserted. The choice is yours. Before deciding whether of not to participate in a study, you will be informed of the amount of sampling scheduled and total amount of blood required.
-
-              
-        </div>
-      </div>
-      <br>
-
-<a data-bs-toggle="collapse" href="#collapseExample18" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-    <b> Q.  How often can I participate?  </b>
-  </a>
-
-    <div class="collapse" id="collapseExample18">
-        <div class="card card-body">
-              A. To protect your health and wellbeing, a "lock-out" period is enforced after you complete a study. The typical lock-out period is 30 days and is based on both the amount of blood drawn and the type of drug. This means that after completing a study, you must wait 30 days before participating in another study - whether at Pharma Medica Research Inc. or another company. The lock-out period is in place to protect your health and safety, and is calculated based on the amount of blood taken as well as the type of drug. 
-
-              
-        </div>
-      </div>
-      <br>
-
-<a data-bs-toggle="collapse" href="#collapseExample19" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-     <b> Q. What is the difference between a wash-out and a lock-out period? </b>
-  </a>
-
-    <div class="collapse" id="collapseExample19">
-        <div class="card card-body">
-              A. A wash-out period is the amount of time scheduled between doses of the drug. For example, after staying in the clinic overnight and taking a dose of a drug you will typically go home, then return and enter the clinic again for another single dose of the study drug on another day. The period between visits is called the "wash-out period". It is typically 1 week but may be 2 weeks or longer. 
-
-              
-        </div>
-      </div>
-      <br>
-
-<a data-bs-toggle="collapse" href="#collapseExample20" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-     <b> Q. What is the difference between a wash-out and a lock-out period? </b>
-  </a>
-
-    <div class="collapse" id="collapseExample20">
-        <div class="card card-body">
-              A. A wash-out period is the amount of time scheduled between doses of the drug. For example, after staying in the clinic overnight and taking a dose of a drug you will typically go home, then return and enter the clinic again for another single dose of the study drug on another day. The period between visits is called the "wash-out period". It is typically 1 week but may be 2 weeks or longer. 
-
-              A lock-out period is the amount of time that you must wait after participating in a study before you can volunteer for another one. Typically, there is a 30-day lock-out period. This means that after completing a study, you must wait 30 days before participating in another study - whether at Pharma Medica Research Inc. or another company. The lock-out period is in place to protect your health and safety, and is calculated based on the amount of blood taken as well as the type of drug.
-        </div>
-      </div>
-      <br>
+ <div class="text-black Center strong m-3">
+  <h3>
+    Post Study 
+ </h3>
+</div>
+<div class="pb-3">
+  <p style="text-align: justify;">At the time you complete your study procedures, you will see a doctor to check your physical status, A blood sample and urine sample will be collected from you. You will receive your Study compensation at this time. You may also get your next study information if you consider participating another study. You might be requested to return to the clinic for a repeat test to ensure your safety.
+</p>
+</div>
 
 
-<a data-bs-toggle="collapse" href="#collapseExample20" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-  <b> Q. What happens if I have side effects from the drug? </b> 
- </a>
+<div class="accordion-item">
+      <h2 class="accordion-header" id="heading21">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+        What if I can't finish the study?
+       </button>
 
-    <div class="collapse" id="collapseExample20">
-        <div class="card card-body">
-              A. Your safety is a priority at Pharma Medica. You will be monitored during the study to make sure you are feeling well. If you experience discomfort of any sort, our staff and physicians will care for you. 
-        </div>
-      </div>
-      <br>
+     </h2>
+     <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       In the event that you cannot complete a study, you will be paid based on the portion of the study that you did complete. Your payment, however, will not be available until the end of the study. While you may choose to leave a study at any time, your participation history may be used to determine future eligibility.   
+     </div>
+   </div>
+ </div>
 
-  <h3> <b> Post Study </b></h3>
-<p style="text-align: justify;">At the time you complete your study procedures, you will see a doctor to check your physical status, A blood sample and urine sample will be collected from you.   You will receive your Study compensation at this time. You may also get your next study information if you consider participating another study.   You might be requested to return to the clinic for a repeat test to ensure your safety.</p>
+<div class="accordion-item">
+      <h2 class="accordion-header" id="heading22">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+       Does PMRI deduct taxes?
+       </button>
 
-
-<a data-bs-toggle="collapse" href="#collapseExample21" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-    <b> Q. What if I can't finish the study? </b>
- </a>
-
-    <div class="collapse" id="collapseExample21">
-        <div class="card card-body">
-              A. In the event that you cannot complete a study, you will be paid based on the portion of the study that you did complete. Your payment, however, will not be available until the end of the study. While you may choose to leave a study at any time, your participation history may be used to determine future eligibility. 
-        </div>
-      </div>
-      <br>
-
-  <a data-bs-toggle="collapse" href="#collapseExample22" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration: none; color: #000000; ">
-     <b> Q. Does PMRI deduct taxes? </b>
- </a>
-
-    <div class="collapse" id="collapseExample22">
-        <div class="card card-body">
-              A. No. You will not receive an employment statement from us for.
-        </div>
-      </div>
-      <br>
-
-
-
-
-
-
+     </h2>
+     <div id="collapse22" class="accordion-collapse collapse" aria-labelledby="heading22" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       No. You will not receive an employment statement from us for.  
+     </div>
+   </div>
+ </div>
 
 
 </div>
   </p>
+</div>
+
 </div>
 
 
@@ -435,7 +487,9 @@ class="text-center text-lg-start text-green">
   </footer>
   <!-- Footer -->
 
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
