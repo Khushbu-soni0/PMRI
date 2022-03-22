@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
   <html>
   <head>
     <meta charset="utf-8">
@@ -14,12 +14,14 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 
+
+    
     <script type="text/javascript" src="js/respond.js"></script>
     <title>PMRI Website</title>
   </head>
   <body>
     <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="70px" width="250px"></a>
           <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +74,6 @@
     </nav>
   </div>
 </div>
-
 <!-- Banner --> 
 
 <div class="page-header-volunteer">
@@ -81,8 +82,12 @@
       <div class="row">
         <div class="col-md-12">
           <h1>Volunteers </h1>
-          <h5>Do you want to participate in Clinical Trial?</h5>
-          <a href="readmore.html" class="btn btn-success">Discover</a>
+          <h5>What to Expect : Frequently Asked Questions</h5>
+          <a href="readmore.html">
+          <img src="img/volunteer/FAQ.png" class="img-fluid rounded-start" height="350px" width="350px">
+        </a>
+
+          <!-- <a href="readmore.html" class="btn btn-success">Discover</a> -->
         </div>
       </div>
     </div>
@@ -91,21 +96,63 @@
 
 
 <div class="container">
-  <h1 class="text-center pt-3 "> About Volunteering</h1>
- <!--  <p class="pt-3">It starts with you.  By deciding to participate in a clinical trial you are playing a vital role in getting drugs to market that may be able to help you, your loved ones and even people you don't know around the world.  To all of our past participants we thank you.  If you are thinking about it, come experience Pharma Medica Research Inc.</p> -->
+  <h1 class="text-center"> About Volunteering</h1>
+ <p class="pt-3">It starts with you.  By deciding to participate in a clinical trial you are playing a vital role in getting drugs to market that may be able to help you, your loved ones and even people you don't know around the world.  To all of our past participants we thank you.  If you are thinking about it, come experience Pharma Medica Research Inc.</p>
 </div>
 
 
 <!-- FAQ section -->
 
- <div class="py-5"> 
- <div class="row justify-content-center bg-green align-items-center">
+ <div class="row justify-content-center bg-green">
     <div class="col-md-6 px-5 text-center">      
-      <span class="d-block mt-3"><h3 class="text-white"> What to Expect : Frequently Asked Questions  </h3></span> 
+      <div class="d-block mt-3"><h3 class="text-white">Do you want to participate in Clinical Trial?  </h3></div> 
       <a class="btn btn-secondary m-3" href="readmore.html" >Read more</a>  
     </div>
   </div>
+
+
+<!-- Login page --> 
+
+<div class="container pt-5">
+
+  <div class="col-md-5 mx-auto">
+    <div class="card" style="border-radius: 15px;">
+      <div class="card-body">      
+        <div class="myform form ">
+         <div class="logo mb-3">
+           <div class="col-md-12 text-center">
+            <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Login</p>
+          </div>
+        </div>
+        <form action="" method="post" name="login">
+         <div class="form-group">
+          <div class="d-flex flex-row align-items-center mb-4">
+            <i class="fa fa-user fa-lg me-3 fa-fw"></i>
+            <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+          </div>
+        </div>
+        <div class="form-group">
+
+          <div class="d-flex flex-row align-items-center mb-4">
+            <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
+            <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+          </div>
+        </div>
+
+        <div class="col-md-12 text-center py-3">
+          <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm">Login</button>
+        </div>
+
+        <div class="form-group">
+          <p class="text-center">Don't have account? <a href="volunteerlogin.html" class="fw-bold text-body"><u>Sign Up here</u></a></p>
+        </div>
+      </form>
+    </div>
+  </div>        
 </div> 
+</div>
+</div>
+
 
 <!-- Cards -->
 
@@ -293,10 +340,7 @@
       <div class="text-center text-danger mb-3">Error sending message!</div>
     </div>
 
-     <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">I would like to get a latest update</label>
-  </div>
+     
     <!-- Form submit button -->
     <div class="text-center">
       <button class="btn btn-success btn-lg" type="submit">Send Message</button>
