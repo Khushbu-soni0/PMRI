@@ -160,6 +160,172 @@
   </div>
 </div>
 
+<!-- Ask a Question -->
+<h1 class="text-center pt-5"> Send Us A Message </h1> 
+<!-- Wrapper container -->
+<div class="container py-4">
+<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm">
+
+    <!-- First Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">First Name</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+      <div class="invalid-feedback" data-sb-feedback="name:required">First Name is required.</div>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="name">Last Name</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required, name"/>
+      <div class="invalid-feedback" data-sb-feedback="name:required">Last Name is required.</div>
+    </div>
+
+
+
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Email Address</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email"/>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+      <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+    </div>
+
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Message</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+      <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+    </div>
+
+    <!-- Form submissions success message -->
+    <div class="d-none" id="submitSuccessMessage">
+      <div class="text-center mb-3">Form submission successful!</div>
+    </div>
+
+    <div class="d-none" id="submitErrorMessage">
+      <div class="text-center text-danger mb-3">Error sending message!</div>
+    </div>
+
+     
+    <!-- Form submit button -->
+    <div class="text-center">
+      <button class="btn btn-success btn-lg" type="submit">Send Message</button>
+   </div>
+  </form>
+</div>
+
+  <!-- Newsletter --> 
+
+  <div class="row justify-content-center bg-green align-items-center">
+    <div class="col-md-6 px-5 text-center">      
+      <span class="d-block mt-3"><h3 class="text-white">Stay Informed!!  <br> Sign Up for news letter </h3></span> 
+      <div class="input-group mb-4 mt-4"> <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2"> <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button> </div>
+    </div>
+  </div>
+
+<!-- Footer --> 
+
+<footer
+class="text-center text-lg-start text-green">
+
+<!-- Section: Links -->
+<section class="">
+  <!--Grid row-->
+  <div class="row">
+    <!-- Grid column -->
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <img src="img/logo.png">
+    </div>
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+      <p>
+        <a class="text-black"href="clinical.html">Clinical Services</a>
+      </p>
+      <p>
+        <a class="text-black" href="bioanalytical.html">Bioanalytical Services</a>
+      </p>
+      <p>
+        <a class="text-black" href="scientificaffairs.html">Scientific Affairs</a>
+      </p>
+    </div>
+
+
+    <!-- Grid column -->
+    <hr class="w-100 clearfix d-md-none" /> 
+
+    <!-- Grid column -->
+    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h6 class="text-uppercase mb-4 font-weight-bold">Home</h6>
+      <p>
+        <a class="text-black" href="aboutus.html"> About Pharma Medica </a></p>
+        <p>
+          <a class="text-black" href="#"> Terms & Condition</a></p>
+          <p>
+            <a class="text-black" href="contactus.html"> Contact Us</a></p>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" /> 
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Head Office</h6>
+            <p>1600 Belgrave Rd</p>
+            <p>Mississauga, ON</p>
+            <p>L5R 0B7</p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" /> 
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us Online</h6>
+
+            <!-- Facebook -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998"
+            href="#!"
+            role="button"><i class="fa fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"><i class="fa fa-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="#!"
+            role="button"
+            ><i class="fa fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #0082ca"
+            href="#!"
+            role="button"><i class="fa fa-linkedin-in"></i></a>
+            
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2021,<a class="text-black" href="#">Pharma Medica Research Inc.</a> All rights reserved.
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
