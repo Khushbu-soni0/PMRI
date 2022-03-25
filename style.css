@@ -275,7 +275,6 @@ display:none;
 	text-align: justify;
 }
 
-
 .hiring p{
 	color: #004f16;
 	text-align: center;
@@ -290,8 +289,6 @@ display:none;
 	background-color: #004f16;
 	color: #c2a35e;
 }
-
-
 
 .nav-tabs a:hover {
 	background-color: #004f16;
@@ -389,12 +386,9 @@ display:none;
 	text-align: justify;
 }
 
-
-
 .FAQ a:hover {
 
 	color: green !important;
-
 }
 
 .card {
@@ -433,4 +427,13 @@ display:none;
 
 .bxs-badge-check {
     font-size: 90px
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:50%;
+    background-color: #C2A35E;
+
 }
