@@ -61,7 +61,7 @@ html  {
 /* Testimonials */
 
 .testimonial-section{
-	background-color: #ffffff;    
+	background-color: none;    
 }
 .testi-img .img-box{
 	max-width: 360px;
@@ -436,4 +436,128 @@ display:none;
     width:50%;
     background-color: #C2A35E;
 
+}
+
+.img1 {
+	background-image: url("img/slider.png");
+}
+
+.bg-image {
+	height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-gray{
+	background-color: #d5d4d2;
+}
+
+.mov {
+  position: relative;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+
+}
+
+.mov:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cir {
+position: relative;
+width: 85%;
+}
+
+.ciroverlay {
+	
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.cir:hover .ciroverlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.animated-circle.arrow  {
+	background: url('img/volunteer/ac-arrow.svg') center no-repeat !important;
+	content: '';
+	display: block;
+	height: 27px;
+	position: absolute;
+	right: -55px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	width: 39px;
+	top: 50%;
+}
+
+.animated-circle.arrow:hover {
+	-webkit-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	transform: translateX(5px);
+}
+
+.text-cards {
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  font-weight: bold;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
