@@ -16,61 +16,72 @@
 
     <script type="text/javascript" src="js/respond.js"></script>
     <title>PMRI Website</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
   </head>
   <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="70px" width="250px"></a>
-          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" height="70px" width="250px"></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
 
-              <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" > 
-                <!-- <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
-                  Services 
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="clinical.html">Clinical Service</a></li>
-                  <li><a class="dropdown-item" href="bioanalytical.html">bioanalytical Services</a></li>
-                  <li><a class="dropdown-item" href="scientificaffairs.html">Scientific Affairs</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="scientificHub.html" id="navbarDropdown">Scientific Hub</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                 <li><a class="dropdown-item" href="researchhub.html">Research Hub</a></li>
-                 <li><a class="dropdown-item" href="PMRInews.html">PMRI News</li></a></li>
-               </ul>
-             </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" > 
+            <!-- <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+              Services 
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="clinical.html">Clinical Service</a></li>
+              <li><a class="dropdown-item" href="bioanalytical.html">Bioanalytical Services</a></li>
+              <li><a class="dropdown-item" href="scientificaffairs.html">Scientific Affairs</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="scientificHub.html" id="navbarDropdown">Scientific Hub</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" href="researchhub.html">Research Hub</a></li>
+             <li><a class="dropdown-item" href="PMRInews.html">PMRI News</li></a></li>
+           </ul>
+         </li> -->
 
-             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
-            </li>
+         <li class="nav-item">
+          <a class="nav-link" href="PMRInews.html">PMRI News</a>
+        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="careers.html">Careers</a>
-            </li>
+         <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="contactus.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="volunteer.html" class="btn btn-success" >Volunteers</a>
-            </li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="careers.html">Careers</a>
+        </li>
 
-        </div>
-      </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="volunteer.html" class="btn btn-success" >Volunteers</a>
+        </li>
+      </ul>
+
+    </div>
   </div>
+</nav>
+</div>
 </div>
 
 <!-- Service Banner -->
@@ -229,13 +240,13 @@ class="text-center text-lg-start text-green">
     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
       <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
       <p>
-        <a class="text-black"href="#">Clinical Services</a>
+        <a class="text-black"href="clinical.html">Clinical Services</a>
       </p>
       <p>
-        <a class="text-black" href="#">Bioanalytical Services</a>
+        <a class="text-black" href="bioanalytical.html">Bioanalytical Services</a>
       </p>
       <p>
-        <a class="text-black" href="#">Scientific Affairs</a>
+        <a class="text-black" href="scientificaffairs.html">Scientific Affairs</a>
       </p>
     </div>
 
@@ -247,11 +258,11 @@ class="text-center text-lg-start text-green">
     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
       <h6 class="text-uppercase mb-4 font-weight-bold">Home</h6>
       <p>
-        <a class="text-black" href="#"> About Pharma Medica </a></p>
+        <a class="text-black" href="aboutus.html"> About Pharma Medica </a></p>
         <p>
           <a class="text-black" href="#"> Terms & Condition</a></p>
           <p>
-            <a class="text-black" href="#"> Contact Us</a></p>
+            <a class="text-black" href="contactus.html"> Contact Us</a></p>
           </div>
           <!-- Grid column -->
           <hr class="w-100 clearfix d-md-none" /> 
