@@ -5,6 +5,7 @@ html  {
  	padding: 0px;
  	overflow-x: hidden; 
  }
+
  nav ul li {
  	padding-left: 30px;
  }
@@ -64,14 +65,14 @@ html  {
 	background-color: none;    
 }
 .testi-img .img-box{
-	max-width: 360px;
+	max-width: 215px;
 	margin:auto;
 	text-align: center;
 	position: relative;
 }
 .testi-img .circle{
-	height: 360px;
-	width: 360px;
+	height: 215px;
+	width: 215px;
 	background-color: #fb9c9a;
 	position: absolute;
 	border-radius: 50%;
@@ -115,7 +116,7 @@ html  {
 }
 
 /* Responsive */
-@media(max-width:991px){
+@media(max-width:1080px){
 	.testi-img .img-box{
 		max-width: 300px;
 	}
@@ -130,7 +131,7 @@ html  {
 		max-width: 230px;
 	}
 }
-@media(max-width:767px){
+@media(max-width:1080px){
 	.testi-img{
 		margin-bottom: 25px;
 	}
@@ -169,38 +170,7 @@ footer {
 }
 
 
-/* Page banner individuals */
 
-.page-header-aboutus  {
-    background: url(img/AboutUs/About-Us-banner.png) no-repeat;
-    padding: 70px 0;
-    margin-top: 50px;
-}
-
-.page-header-service{
-	background: url(img/Service/banner.png) no-repeat;
-    padding: 70px 0;
-    margin-top: 50px;
-    
-}
-
-.page-header-career{
-	background: url(img/Career/banner.png) no-repeat;
-	padding: 70px 0;
-    margin-top: 50px;
-}
-
-.page-header-contactus{
-	background: url(img/ContactUs/banner.png) no-repeat;
-	padding: 70px 0;
-    margin-top: 50px;
-}
-
-.page-header-volunteer {
-	background: url(img/volunteer/volunteersbanner.png) no-repeat;
-	padding: 70px 0;
-    margin-top: 50px;
-}
 
 .page-header-pmrinews {
 	background: url(img/news/news.png);
@@ -219,9 +189,9 @@ footer {
 }
 
 .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
+    position: absolute;
+    top: 95px;
+    left: 200px;
 }
 
 .txtalign {
@@ -230,10 +200,17 @@ footer {
 
 .service p {
   margin: 0;
-
   text-align: justify;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+#service p{
+  
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+ 
+}
 
 #module {
   width: 500px;
@@ -893,4 +870,149 @@ input {
 
 #check {
     display: none !important
+}
+
+/* Text scroll shown */
+
+
+section{
+  /*min-height: 300px;*/
+ /* height: 300px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+/*section:nth-child(1){
+  color: #e0ffff;
+  }
+section:nth-child(2){
+  color: #42455a;
+  background: #e0ffff;
+} 
+section:nth-child(3){
+  color: #e0ffff;
+}
+section:nth-child(4){
+  color: #42455a;
+  background: #e0ffff;
+}*/
+section .container{
+  margin: 100px;
+}
+section h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1080px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/*study page */
+
+.study-id {
+    background-color: #247928;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    padding: 4px 0;
+}
+
+
+.study-divider {
+    border: 2px dotted #008F9C;
+    border-width: 2px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 15px 9px;
+    padding: 10px 5px;
+}
+
+.study-check-in {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0;
+    padding: 5px 0 0;
+}
+
+
+.study{
+  position: relative;
+  width: 100%; 
+}
+
+.card-study {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  /*max-width: 500PX;*/
+  text-align: center;
+  margin: 25px;
+}
+
+
+sign-up:hover, a:hover {
+  opacity: 0.7;
+}
+
+.sign-up a {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+.study-needed {
+    font-size: 18px ;
+    padding: 15px;
+    margin: 15px;
 }
