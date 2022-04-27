@@ -5,7 +5,7 @@ const prompts = [
   ["how are you", "how is life", "how are things", "hows you"],
   ["what are you doing", "what is going on", "what is up"],
   ["how old are you"],
-  ["who are you", "are you human", "are you bot", "are you human or bot"],
+  ["who are you", "are you human", "are you bot", "are you human or bot", "are you robot?"],
   ["who created you", "who made you"],
   [
     "your name please",
@@ -14,7 +14,7 @@ const prompts = [
     "what is your name",
     "what call yourself"
   ],
-  ["i have question"],
+  ["i have question", "i have one question"],
   ["i love you"],
   ["happy", "good", "fun", "wonderful", "fantastic", "cool", "fine"],
   ["bad", "bored", "tired"],
@@ -24,7 +24,7 @@ const prompts = [
   ["what should i eat today"],
   ["bro"],
   ["what", "why", "how", "where", "when"],
-  ["no","not sure","maybe","no thanks"],
+  ["no","not sure","maybe","no thanks", "not yet"],
   [""],
   ["haha","ha","lol","hehe","funny","joke"]
 ]
@@ -40,13 +40,12 @@ const replies = [
   ],
   [
     "Nothing much",
-    "About to go to sleep",
     "Can you guess?",
     "I don't know actually"
   ],
   ["I am infinite"],
   ["I am just a bot", "I am a bot. What are you?"],
-  ["The one true God, JavaScript"],
+  ["Pharma Medica Research employee"],
   ["I am nameless", "I don't have a name"],
   ["Okay, go ahead"],
   ["I love you too", "Me too"],
@@ -68,7 +67,7 @@ const replies = [
 const alternative = [
   "Try again",
   "How may I help you?",
-  "I don't understand :/"
+  "I don't understand"
 ]
 
 // Whatever else you want :)
