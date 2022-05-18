@@ -5,6 +5,15 @@ const myCarousel = document.getElementById('myCarousel')
     document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
   })
 
+
+const form = document.querySelector('form');
+const thankYouMessage = document.querySelector('#thank-you-message');
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  thankYouMessage.classList.add('show');
+  setTimeout(() => form.submit(), 3000);
+});
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -58,3 +67,4 @@ window.onscroll = () => {
     }
   });
 };
+

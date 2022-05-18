@@ -459,6 +459,19 @@ display:none;
 
 }
 
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+  color: #004f16;
+}
+
+.btn-lg{
+    background-color: #C2A35E;
+}
+
 .img1 {
 	background-image: url("img/slider.png");
 }
