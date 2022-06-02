@@ -185,7 +185,7 @@ nav .container ul li a:hover {
 }
 /* NewsLetter */
 .card {
-	background-color: #f5f8f7;
+	background-color: #d5d4d2;
 }
 
 .txt {
@@ -960,8 +960,8 @@ input {
 
 
 section{
-  /*min-height: 300px;*/
- /* height: 300px;*/
+  /*max-height: 300px;*/
+  /*height: 300px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -982,7 +982,7 @@ section:nth-child(4){
   background: #e0ffff;
 }*/
 section .container{
-  margin: 100px;
+  margin: 25px;
 }
 section h1{
   font-size: 3rem;
@@ -1226,6 +1226,7 @@ sign-up:hover, a:hover {
   text-align: center;
 }
 
+
 .font {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -1233,4 +1234,21 @@ sign-up:hover, a:hover {
     font-size: 20px;
      top: 50%;
   left: 50%;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.hide{
+    overflow: hidden;
 }
